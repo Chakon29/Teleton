@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "@/components/ui/sheet"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { MessageCircle, Menu, X } from "lucide-react"
-import ChatBot from '@/components/ChatBot'
+import { Menu, X } from "lucide-react"
+
 
 const Home = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -112,7 +111,7 @@ const Home = () => {
   
   
         {/* Fixed Chat Button */}
-
+#
       </div>
     )
 };
